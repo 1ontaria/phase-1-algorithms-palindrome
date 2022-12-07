@@ -1,9 +1,15 @@
 function isPalindrome(word) {
-  // Write your algorithm here
+  if (word.split("").reverse().join("") === word) {
+    return true;
+  } else {
+    return false;
+  }
 }
 
 /* 
-  Add your pseudocode here
+  write a fucntion that receives one argument, a string
+     return true if string is palindrome
+    else, return false if not a plaindrome
 */
 
 /*
